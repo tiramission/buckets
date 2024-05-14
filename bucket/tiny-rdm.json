@@ -1,16 +1,16 @@
 {
-    "version": "1.1.11",
+    "version": "1.1.12",
     "description": "A Modern Redis GUI Client",
     "homepage": "https://github.com/tiny-craft/tiny-rdm",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.1.11/TinyRDM_Portable_1.1.11_windows_x64.zip",
-            "hash": "dfd82bbfd241d9c84e38d1cda4feecf1360d28625bf9c94bcf3cf69e27cf37e0"
+            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.1.12/TinyRDM_Portable_1.1.12_windows_x64.zip",
+            "hash": "7c69e6626f80ef3e5d51543fe3dff5d234e8ebe1b8c7814bef759bda0d7106cf"
         },
         "arm64": {
-            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.1.11/TinyRDM_Portable_1.1.11_windows_arm64.zip",
-            "hash": "145a4679bf86d288cf0dbb69f4311655b776abe56e661c846acdcb08bb5bb437"
+            "url": "https://github.com/tiny-craft/tiny-rdm/releases/download/v1.1.12/TinyRDM_Portable_1.1.12_windows_arm64.zip",
+            "hash": "b9493b5b9ecd591a7d60f8ce080bf928198fe9f07da8b72110e9fb43f86d428b"
         }
     },
     "shortcuts": [
