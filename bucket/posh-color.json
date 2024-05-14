@@ -1,0 +1,16 @@
+{
+    "version": "1.0.3",
+    "description": "Adds customizable color and themes to Powershell",
+    "homepage": "https://github.com/JustABearOz/PoshColor",
+    "license": "MIT",
+    "notes": "Add `Import-Module PoshColor` in your Powershell profile to activate PoshColor",
+    "url": "https://github.com/JustABearOz/PoshColor/releases/download/V1.0.3/PoshColor.zip",
+    "hash": "755220af69f3cd9e11511e033305a7daed7317b95fb6a082379baa4dbe6d0f11",
+    "psmodule": {
+        "name": "PoshColor"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/JustABearOz/PoshColor/releases/download/V$version/PoshColor.zip"
+    }
+}
