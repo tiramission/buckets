@@ -1,20 +1,20 @@
 {
-    "version": "1.7.1",
+    "version": "1.7.2",
     "description": "A GUI program for SingBox developed by vue3 + wails.",
     "homepage": "https://github.com/GUI-for-Cores/GUI.for.SingBox",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.1/GUI.for.SingBox-windows-amd64.zip",
-            "hash": "5b8e76dc5b1b2aa251de555364230e182f83a8123d536a45fe120810d331493b"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.2/GUI.for.SingBox-windows-amd64.zip",
+            "hash": "b7ec8f48bf1b6655d2b27b7f5fa7a91efaeea5e95c94dcee825123bad5e5916e"
         },
         "32bit": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.1/GUI.for.SingBox-windows-386.zip",
-            "hash": "7e06a535a7a10d97c5532af8c51550929fd80265e471a7fe244cf69b8e137dd8"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.2/GUI.for.SingBox-windows-386.zip",
+            "hash": "da3a43542acc72ecba4c1de8d3b255b671aeaf092e7b7d1e467f9272acafe869"
         },
         "arm64": {
-            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.1/GUI.for.SingBox-windows-arm64.zip",
-            "hash": "3119ac9541367343bb4d4617c1c03e9f23afe6ee27316418d383ade490f1c16c"
+            "url": "https://github.com/GUI-for-Cores/GUI.for.SingBox/releases/download/v1.7.2/GUI.for.SingBox-windows-arm64.zip",
+            "hash": "bfabd43fe5412e3cd4087de737b7e5e2d7fec752a92a4062449a905db874a059"
         }
     },
     "shortcuts": [
