@@ -1,0 +1,34 @@
+{
+    "version": "2.0.0a2",
+    "description": "Keyviz 是一个免费开源的按键可视化工具，汉化版。Keyviz Chinese l10n fork.",
+    "homepage": "https://github.com/zetaloop/keyviz",
+    "license": "GPL-3.0-only",
+    "suggest": {
+        "vcredist": "extras/vcredist2022"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/zetaloop/keyviz/releases/download/v2.0.0a2/keyviz-v2.0.0a2-windows.zip",
+            "hash": "3c7ee315a0510f9c9b0533a1566554711272adca82654be6955040f756c1fefe"
+        }
+    },
+    "pre_install": "Get-ChildItem \"$dir\" 'keyviz-v*.exe' | Select-Object -First 1 -ExpandProperty FullName | Expand-InnoArchive -Destination \"$dir\" -Removal",
+    "shortcuts": [
+        [
+            "keyviz.exe",
+            "Keyviz"
+        ]
+    ],
+    "checkver": {
+        "url": "https://api.github.com/repos/zetaloop/keyviz/tags",
+        "jsonpath": "$[0].name",
+        "regex": "v(.*)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/zetaloop/keyviz/releases/download/v$version/keyviz-v$version-windows.zip"
+            }
+        }
+    }
+}
