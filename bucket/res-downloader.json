@@ -1,0 +1,30 @@
+{
+    "version": "2.1.2",
+    "description": "支持视频号、小程序、抖音、快手、小红书、酷狗、QQ音乐等网络资源下载!",
+    "homepage": "https://github.com/putyy/res-downloader",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/putyy/res-downloader/releases/download/2.1.2/res-downloader_2.1.2.exe#/dl.7z",
+            "hash": "766d9ddcd95cf265c925cf9766cef30763dab513cc203eb8ee4f2f328bb59efc"
+        }
+    },
+    "pre_install": [
+        "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" | Out-Null",
+        "Remove-Item \"$dir\\`$PLUGINSDIR\" -Force -Recurse"
+    ],
+    "shortcuts": [
+        [
+            "res-downloader.exe",
+            "Res Downloader"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/putyy/res-downloader/releases/download/$version/res-downloader_$version.exe#/dl.7z"
+            }
+        }
+    }
+}
