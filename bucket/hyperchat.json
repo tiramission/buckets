@@ -1,10 +1,10 @@
 {
-    "version": "1.4.0",
+    "version": "1.4.2",
     "description": "HyperChat is a Chat client that strives for openness, utilizing APIs from various LLMs to achieve the best Chat experience, as well as implementing productivity tools through the MCP protocol.",
     "homepage": "https://github.com/BigSweetPotatoStudio/HyperChat",
     "license": "Apache-2.0",
-    "url": "https://github.com/BigSweetPotatoStudio/HyperChat/releases/download/v1.4.0/HyperChat-1.4.0-win-x64.zip",
-    "hash": "b456f53bf83af5df4f38c36ccada58bf9e50d3d62ce64ee36b5cfb686395c843",
+    "url": "https://github.com/BigSweetPotatoStudio/HyperChat/releases/download/v1.4.2/HyperChat-1.4.2-win-x64.zip",
+    "hash": "cdfd3dd93cb4c6a4c954501a8d58226c03027e6d6eae294ac201cd94c0dc4ec7",
     "shortcuts": [
         [
             "HyperChat.exe",
