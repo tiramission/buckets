@@ -15,6 +15,7 @@
     },
     "bin": "pixi.exe",
     "persist": "data",
+    "env_add_path": "data\\bin",
     "env_set":{
         "PIXI_HOME": "$dir\\data"
     },
