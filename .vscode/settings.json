@@ -3,9 +3,6 @@
     "[powershell]": {
         "editor.formatOnSave": true
     },
-    "[json]": {
-        "editor.formatOnSave": false
-    },
     "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
     "powershell.codeFormatting.preset": "OTBS",
     "powershell.codeFormatting.alignPropertyValuePairs": true,
