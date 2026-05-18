@@ -1,13 +1,13 @@
 {
-    "version": "1.0.4",
+    "version": "1.0.6",
     "description": "Enable suggestions on how to install missing commands via winget",
     "homepage": "https://github.com/Microsoft/winget-command-not-found",
     "license": "MIT",
     "suggest": {
         "WinGet": "winget"
     },
-    "url": "https://psg-prod-eastus.azureedge.net/packages/microsoft.winget.commandnotfound.1.0.4.nupkg",
-    "hash": "6b3ea5123b5e2f9387dc83d109642e02c8444d06034293150ee63e570009792b",
+    "url": "https://cdn.powershellgallery.com/packages/microsoft.winget.commandnotfound.1.0.6.nupkg",
+    "hash": "1b40feda7e485f5806201f8aa79dce4b5ad7b82a919de91faf1e78302f8d4c1e",
     "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
     "psmodule": {
         "name": "Microsoft.WinGet.CommandNotFound"
@@ -17,6 +17,6 @@
         "regex": "<h2>([\\d.]+?)(.0)?</h2>"
     },
     "autoupdate": {
-        "url": "https://psg-prod-eastus.azureedge.net/packages/microsoft.winget.commandnotfound.$version.nupkg"
+        "url": "https://cdn.powershellgallery.com/packages/microsoft.winget.commandnotfound.$version.nupkg"
     }
 }
