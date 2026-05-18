@@ -1,0 +1,16 @@
+{
+    "version": "1.24.0",
+    "description": "PSScriptAnalyzer provides script analysis and checks for potential code defects in the scripts by applying a group of built-in or customized rules on the scripts being analyzed.",
+    "homepage": "https://github.com/PowerShell/PSScriptAnalyzer",
+    "license": "MIT",
+    "url": "https://github.com/PowerShell/PSScriptAnalyzer/releases/download/1.24.0/PSScriptAnalyzer.1.24.0.nupkg",
+    "hash": "e86c97d44bb1bc8a1de35e753b85ea1d938f6f9f881639a181507e079bca4556",
+    "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
+    "psmodule": {
+        "name": "PSScriptAnalyzer"
+    },
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/PowerShell/PSScriptAnalyzer/releases/download/$version/PSScriptAnalyzer.$version.nupkg"
+    }
+}
