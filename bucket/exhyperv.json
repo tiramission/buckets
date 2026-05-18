@@ -1,12 +1,12 @@
 {
-    "version": "1.2.2",
+    "version": "1.4.3",
     "description": "A GUI software that provides advanced HyperV virtual machine features such as DDA and GPU-PV.",
     "homepage": "https://github.com/Justsenger/ExHyperV",
     "license": "GPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Justsenger/ExHyperV/releases/download/v1.2.2/1.2.2.7z",
-            "hash": "ee6da17e98c3d9b754083bfdfd3ad966541a60d146d71bb87896aaa7122d2eaa"
+            "url": "https://github.com/Justsenger/ExHyperV/releases/download/V1.4.3/ExHyperV_1.4.3_x64.zip",
+            "hash": "17d4f765fb81e9af528b2c0470fa5680a225735eb95010c43ad60272ffa19730"
         }
     },
     "shortcuts": [
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/Justsenger/ExHyperV/releases/download/v$version/$version.7z"
+                "url": "https://github.com/Justsenger/ExHyperV/releases/download/V$version/ExHyperV_$version_x64.zip"
             }
         }
     }
