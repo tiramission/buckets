@@ -1,0 +1,30 @@
+{
+    "version": "1.0.8",
+    "description": "A visual management software for mise, quickly manage local toolchain versions and project dependency tool versions through a graphical interface.",
+    "homepage": "https://github.com/likaia/mise_gui",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/likaia/mise_gui/releases/download/v1.0.8/Mise.GUI-Windows-x64-release-1.0.8+9-2026-05-18.zip",
+            "hash": "fde406bea3f222695cd946396946b8bbc584f72b333b7eb2056ff38d153050ca",
+            "extract_dir": "Mise GUI-Windows-x64"
+        }
+    },
+    "shortcuts": [
+        [
+            "mise_gui.exe",
+            "Mise GUI"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/likaia/mise_gui",
+        "regex": "Mise\\.GUI-Windows-x64-release-([\\d.]+)\\+(\\d+)-(\\d{4}-\\d{2}-\\d{2})\\.zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/likaia/mise_gui/releases/download/v$version/Mise.GUI-Windows-x64-release-$match1+$match2-$match3.zip"
+            }
+        }
+    }
+}
