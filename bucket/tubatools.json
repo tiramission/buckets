@@ -1,0 +1,35 @@
+{
+    "version": "1.2.0",
+    "description": "图吧工具箱 - PC 硬件工具集合，集成硬件检测、压力测试、系统优化等工具",
+    "homepage": "https://github.com/luolangaga/tubatools",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.2.0/TubaWinUi3_Portable_1.2.0_x64.zip",
+            "hash": "sha256:c6b05cc950bf1f1e4b62777f9249b6cef0b698607c0bdffa387678c319e03442"
+        },
+        "arm64": {
+            "url": "https://github.com/luolangaga/tubatools/releases/download/v1.2.0/TubaWinUi3_Portable_1.2.0_arm64.zip",
+            "hash": "sha256:d70b0630b4895dc495f1eecb01993740f8d0347e62b93da98bdd1b3f99c1332c"
+        }
+    },
+    "shortcuts": [
+        [
+            "图吧工具箱WinUI3.exe",
+            "图吧工具箱"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/luolangaga/tubatools"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/luolangaga/tubatools/releases/download/v$version/TubaWinUi3_Portable_$version_x64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/luolangaga/tubatools/releases/download/v$version/TubaWinUi3_Portable_$version_arm64.zip"
+            }
+        }
+    }
+}
