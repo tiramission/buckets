@@ -1,10 +1,10 @@
 {
-    "version": "1.27.0",
+    "version": "1.28.0",
     "description": "A cross-platform terminal workspace for remote development and AI agents, powered by libghostty-vt",
     "homepage": "https://github.com/xuzhougeng/wispterm",
     "license": "MIT",
-    "url": "https://github.com/xuzhougeng/wispterm/releases/download/v1.27.0/wispterm-windows-portable-v1.27.0.zip",
-    "hash": "0b7e02b390989183f533a73927c4195480d88cb414eea53aa3047bd1a170b8bd",
+    "url": "https://github.com/xuzhougeng/wispterm/releases/download/v1.28.0/wispterm-windows-portable-v1.28.0.zip",
+    "hash": "a0e6c6435202895b9d407e56d26cbc0ae9a42ab249f511d1d1464564cd4d31f6",
     "bin": [
         "wispterm.exe",
         "wispterm-ssh-askpass.exe"
