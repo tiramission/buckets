@@ -1,10 +1,10 @@
 {
-    "version": "5.7.1",
+    "version": "6.0.1",
     "description": "Pester is the ubiquitous test and mock framework for PowerShell.",
     "homepage": "https://github.com/Pester/Pester",
     "license": "MIT",
-    "url": "https://cdn.powershellgallery.com/packages/pester.5.7.1.nupkg",
-    "hash": "4a27904c6814a5fbe4758f8e49861f6a1994aee77b71165a5c43c0371ba6c580",
+    "url": "https://cdn.powershellgallery.com/packages/pester.6.0.1.nupkg",
+    "hash": "f677d43efceeb353048ad9c5ec21f908dd2cd63d0c49a792c33711c642bbdfa7",
     "pre_install": "Remove-Item \"$dir\\_rels\", \"$dir\\package\", \"$dir\\*Content*.xml\" -Recurse",
     "psmodule": {
         "name": "Pester"
