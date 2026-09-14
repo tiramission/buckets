@@ -1,16 +1,16 @@
 {
-    "version": "0.34.5",
+    "version": "0.35.0",
     "description": "A local-first SSH/SFTP/Serial client with E2EE sync, plugins, and no account required",
     "homepage": "https://github.com/VoltiusApp/voltius",
     "license": "AGPL-3.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/VoltiusApp/voltius/releases/download/v0.34.5/voltius_windows_x64.exe#/voltius.exe",
-            "hash": "f6950369a42a2bb7026b7b215ba0b14ae72a0ae30e507d70a1b665d2a5296e1e"
+            "url": "https://github.com/VoltiusApp/voltius/releases/download/v0.35.0/voltius_windows_x64.exe#/voltius.exe",
+            "hash": "66858894633cf2de9128146caf8460e5fcac542f96c205a5d924927c77555172"
         },
         "arm64": {
-            "url": "https://github.com/VoltiusApp/voltius/releases/download/v0.34.5/voltius_windows_arm64.exe#/voltius.exe",
-            "hash": "f739d641c30fa2830add0cf013512505fef6a452fe1a274289ba2d1632fbc331"
+            "url": "https://github.com/VoltiusApp/voltius/releases/download/v0.35.0/voltius_windows_arm64.exe#/voltius.exe",
+            "hash": "11de717c08da03a6dc48856f34b5fb20b8a4eaa5deb7efc1453af72ddfde01fd"
         }
     },
     "bin": "voltius.exe",
