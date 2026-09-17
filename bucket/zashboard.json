@@ -1,10 +1,10 @@
 {
-    "version": "3.27.0",
+    "version": "3.28.0",
     "description": "A Dashboard Using Clash API",
     "homepage": "https://github.com/Zephyruso/zashboard",
     "license": "MIT",
-    "url": "https://github.com/Zephyruso/zashboard/releases/download/v3.27.0/dist.zip",
-    "hash": "d78cbf20763a9ec78a065b0fb3e3a5176b53c9bfad59ec631762ef2a2e96a135",
+    "url": "https://github.com/Zephyruso/zashboard/releases/download/v3.28.0/dist.zip",
+    "hash": "8d966a3b75292764d16a0e5796b6c6de0468bc71a7e9302f430f27b681f77b43",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/Zephyruso/zashboard/releases/download/v$version/dist.zip"
