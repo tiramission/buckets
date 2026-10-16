@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "scoop-skills": {
+      "source": "entr0pia/scoop-skills",
+      "sourceType": "github",
+      "skillPath": "skills/scoop-skills/SKILL.md",
+      "computedHash": "2fb74a1a3c7d5ebad4ea4b0b3b3f3367554904b16d8ae4545c9c1ee746b9533d"
+    }
+  }
+}
