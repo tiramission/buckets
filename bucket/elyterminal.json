@@ -1,12 +1,12 @@
 {
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "ELYTerminal - A terminal for macOS, Windows and Linux, in Rust on GPUI and Ely components.",
     "homepage": "https://git.zacharyzhang.com/ZacharyZhang-NY/ELYTerminal",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://git.zacharyzhang.com/ZacharyZhang-NY/ELYTerminal/releases/download/v0.1.3/ELYTerminal-0.1.3-windows-x86_64.zip",
-            "hash": "d0fc74a725e03b080be8aa41400fb2d351b9c138fd15673c27626445e0562e28"
+            "url": "https://git.zacharyzhang.com/ZacharyZhang-NY/ELYTerminal/releases/download/v0.1.4/ELYTerminal-0.1.4-windows-x86_64.zip",
+            "hash": "f723dd47462b9d6674d746ea979d4ecaec9a50a288c868792c65afe2e31741d5"
         }
     },
     "bin": "elyterminal.exe",
