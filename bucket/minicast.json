@@ -1,0 +1,26 @@
+{
+    "version": "1.3.0",
+    "description": "A lightweight, cross-platform DLNA/UPnP media renderer built on mpv",
+    "homepage": "https://github.com/freedomNTD/minicast",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/freedomNTD/minicast/releases/download/v1.3.0/MiniCast.exe",
+            "hash": "763463324b42c92b9df8cc2b7ebd511f73dc7a96a5595a8864abf06aa8999416"
+        }
+    },
+    "shortcuts": [
+        [
+            "MiniCast.exe",
+            "Macast"
+        ]
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/freedomNTD/minicast/releases/download/v$version/MiniCast.exe"
+            }
+        }
+    },
+    "checkver": "github"
+}
