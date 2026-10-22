@@ -1,17 +1,17 @@
 {
-    "version": "2.3",
+    "version": "2.5",
     "description": "红果短剧 - 开源短剧播放器与下载器，支持红果/西饭/河马三来源搜索、选集下载、连续播放与分集合并。",
     "homepage": "https://github.com/jackotom/hongguo-drama-mac",
     "license": "GPL-3.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/jackotom/hongguo-drama-mac/releases/download/v2.3/hongguo-downloader-2.3-win-x64.exe",
-            "hash": "710bc1ac70d015c93835dd9ce98b5ffee23602b2790ea49510a2b14d4c13fff2"
+            "url": "https://github.com/jackotom/hongguo-drama-mac/releases/download/v2.5/hongguo-downloader-2.5-win-x64.exe",
+            "hash": "f77ede69844831d5653dddc24008551a2bc9fe36446e6f438e69237cd8fe7a9d"
         }
     },
     "shortcuts": [
         [
-            "hongguo-downloader-2.3-win-x64.exe",
+            "hongguo-downloader-2.5-win-x64.exe",
             "红果短剧"
         ]
     ],
