@@ -1,0 +1,20 @@
+{
+    "version": "0.1.30",
+    "description": "A terminal of blocks with a coding agent beside you, built on nanoui",
+    "homepage": "https://github.com/justrach/nanoterm",
+    "license": "MIT",
+    "url": "https://github.com/justrach/nanoterm/releases/download/v0.1.30/nanoterm-windows-x86_64.zip",
+    "hash": "346ac6d8e7c9b5fa988f92a4f3a40bed8824e11d4a2b2834ef242f5e224b0d0c",
+    "extract_dir": "nanoterm-0.1.30-windows-x86_64",
+    "shortcuts": [
+        [
+            "nanoterm.exe",
+            "NanoTerm"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/justrach/nanoterm/releases/download/v$version/nanoterm-windows-x86_64.zip",
+        "extract_dir": "nanoterm-$version-windows-x86_64"
+    }
+}
