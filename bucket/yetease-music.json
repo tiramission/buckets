@@ -1,10 +1,10 @@
 {
-    "version": "0.2.4",
+    "version": "0.2.5",
     "description": "快速、干净、好看的网易云音乐第三方客户端：Rust 原生内核 × Flutter 界面，Linux 优先 / A fast, clean NetEase Cloud Music client — Rust core × Flutter UI",
     "homepage": "https://github.com/Gloridust/YetEaseMusic",
     "license": "MIT",
-    "url": "https://github.com/Gloridust/YetEaseMusic/releases/download/v0.2.4/yetease-music-0.2.4-windows-x64-portable.zip",
-    "hash": "46ae5da43a90416a71f7acdd5669c81c36730cb8442f387b51e1b6d085f49968",
+    "url": "https://github.com/Gloridust/YetEaseMusic/releases/download/v0.2.5/yetease-music-0.2.5-windows-x64-portable.zip",
+    "hash": "27e394a519e36d3b79b89c2ebb9a8264a24016a75a5043e2578dd7abf1d0b439",
     "shortcuts": [
         [
             "yetease-music.exe",
