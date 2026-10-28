@@ -1,0 +1,15 @@
+{
+    "version": "0.7.0",
+    "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
+    "homepage": "https://github.com/tailscale/tailcat",
+    "license": "BSD-3-Clause",
+    "url": "https://github.com/tailscale/tailcat/releases/download/v0.7.0/tailcat_0.7.0_windows_amd64.zip",
+    "hash": "f04cac07e3bf6c700b0b543df0d3315a3b312cd5a05ee76714e1cc848e9b2dff",
+    "bin": [
+        "tailcat.exe"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/tailscale/tailcat/releases/download/v$version/tailcat_$version_windows_amd64.zip"
+    }
+}
