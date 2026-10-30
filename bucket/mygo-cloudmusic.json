@@ -1,10 +1,10 @@
 {
-    "version": "0.1.20",
+    "version": "0.1.22",
     "description": "MyGo 云音乐 - 第三方网易云音乐原生客户端",
     "homepage": "https://github.com/egoist/mygo-cloudmusic",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/egoist/mygo-cloudmusic/releases/download/v0.1.20/mygo-cloudmusic-0.1.20-windows-amd64.tar.gz",
-    "hash": "5462d7e51d167967dfb495505b86a5b3b20428804627a54368dcb5e6a8fa0607",
+    "url": "https://github.com/egoist/mygo-cloudmusic/releases/download/v0.1.22/mygo-cloudmusic-0.1.22-windows-amd64.tar.gz",
+    "hash": "bd18dc417c06342df6e375e3aa3500069ec274c702ecc051a73397c022df7ae5",
     "checkver": "github",
     "shortcuts": [
         [
