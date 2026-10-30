@@ -1,0 +1,21 @@
+{
+    "version": "1.1.7",
+    "description": "The fast, beautiful, open-source download manager for Windows, macOS and Linux — up to 32 connections, browser integration, video & MP3 downloads, crash-safe resume.",
+    "homepage": "https://github.com/FortoGraphy/prism-download-manager",
+    "license": "MIT",
+    "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.1.7/Prism-1.1.7-windows-x64-portable.zip",
+    "hash": "9cd5bd97383c44f867135cbeba87286ee626f5ce78f856c1b17a2118c972b526",
+    "checkver": "github",
+    "persist": [
+        "data"
+    ],
+    "shortcuts": [
+        [
+            "prism.exe",
+            "Prism"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v$version/Prism-$version-windows-x64-portable.zip"
+    }
+}
