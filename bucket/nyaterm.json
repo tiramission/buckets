@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "description": "A modern remote terminal workspace",
+    "homepage": "https://github.com/nyakang/nyaterm",
+    "license": "Apache-2.0",
+    "url": "https://github.com/nyakang/nyaterm/releases/download/v2.0.0/NyaTerm_2.0.0_windows_x64_portable.zip",
+    "hash": "68b7d9fe746e65ce1e05b3ba69acff8bdb4cb303c3e238f532061995e0631b18",
+    "checkver": "github",
+    "extract_dir": "NyaTerm-portable",
+    "persist": "data",
+    "shortcuts": [
+        [
+            "NyaTerm.exe",
+            "NyaTerm"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://github.com/nyakang/nyaterm/releases/download/v$version/NyaTerm_$version_windows_x64_portable.zip"
+    }
+}
