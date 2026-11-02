@@ -9,7 +9,12 @@
             "hash": "3535f8db6258bae909a9f29ea15ada9133471a905adb90655838807ee2f49049"
         }
     },
-    "bin": "herdr-core.exe",
+    "bin": [
+        [
+            "herdr-core.exe",
+            "hc"
+        ]
+    ],
     "checkver": {
         "url": "https://releases.herdr.dev/core/latest.json",
         "jsonpath": "$.version"
