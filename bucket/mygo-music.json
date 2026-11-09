@@ -1,10 +1,10 @@
 {
-    "version": "0.1.19",
+    "version": "0.1.22",
     "description": "A native music player you extend with plugins",
     "homepage": "https://github.com/egoist/mygo-music",
     "license": "GPL-3.0-or-later",
-    "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.19/mygo-music-0.1.19-windows-amd64.tar.gz",
-    "hash": "1dd81ab22afe97538ded5d6bacb2cd5c6da86175679adf56fa7534920deb108c",
+    "url": "https://github.com/egoist/mygo-music/releases/download/v0.1.22/mygo-music-0.1.22-windows-amd64.tar.gz",
+    "hash": "240e602f10d68e684500d5203c5483ef75ba0c38feb3234e341fdff292ce0061",
     "shortcuts": [
         [
             "MyGo Music.exe",
