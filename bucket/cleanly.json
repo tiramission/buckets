@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "description": "Cleanly — a stylish, safe PC cleaner for Windows and macOS",
+    "homepage": "https://github.com/0xCodez/cleanly",
+    "license": "Unlicense",
+    "url": "https://github.com/0xCodez/cleanly/releases/download/v0.2.0/Cleanly-portable.exe",
+    "hash": "13367ae684941ae20a48312958f2dc3c25f82b2c13236d0a67666b956c7be47a",
+    "shortcuts": [
+        [
+            "Cleanly-portable.exe",
+            "Cleanly"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/0xCodez/cleanly/releases/download/v$version/Cleanly-portable.exe"
+    }
+}
