@@ -1,17 +1,17 @@
 {
-    "version": "20261108-git-8bc468896e",
+    "version": "20261109-git-a61f6c3abd",
     "description": "Development files for libmpv (libmpv-2.dll, headers and import library)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
     "notes": "The install directory is added to PATH so libmpv-based players can load 'libmpv-2.dll' from it.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-11-08-8bc468896e/mpv-dev-x86_64-20261108-git-8bc468896e.7z",
-            "hash": "a36392a8fbd989ae274a37c63d01ef6c51b6070a5ebd2ee26d2715ae88f90ceb"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-11-09-a61f6c3abd/mpv-dev-x86_64-20261109-git-a61f6c3abd.7z",
+            "hash": "103a1345746cf7f77191dae39bf01274e7a9d77255c8a9e66aefe5c67394ad81"
         },
         "arm64": {
-            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-11-08-8bc468896e/mpv-dev-aarch64-20261108-git-8bc468896e.7z",
-            "hash": "8ce1c9471dd14e0061cc92d3a257c6d877c75661994afa359e509d5558071a12"
+            "url": "https://github.com/zhongfly/mpv-winbuild/releases/download/2026-11-09-a61f6c3abd/mpv-dev-aarch64-20261109-git-a61f6c3abd.7z",
+            "hash": "b8c8cd1e1774ca912029352aaeed24f5cd13cd7f5c01c7816f0b51c99fec95c4"
         }
     },
     "env_add_path": ".",
