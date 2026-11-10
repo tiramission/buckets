@@ -1,0 +1,38 @@
+{
+    "version": "1.0.9",
+    "description": "Native GitHub Gist desktop client: search gists, browse files and edit code with syntax highlighting.",
+    "homepage": "https://github.com/Oranjekop/GistManager",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Oranjekop/GistManager/releases/download/v1.0.9/GistManager-1.0.9-windows-amd64.zip",
+            "hash": "8108a89a9cc495225529e88833cd7e4242e872aa9f1828df2bb45053ff4ba031"
+        },
+        "arm64": {
+            "url": "https://github.com/Oranjekop/GistManager/releases/download/v1.0.9/GistManager-1.0.9-windows-arm64.zip",
+            "hash": "ee074d16cdb123e67e9ea1eda11794d68f6fb9e1a7f703e50bacd513a9c0fa4e"
+        }
+    },
+    "notes": [
+        "GistManager checks for updates 8 seconds after launch and can replace its exe in place, which conflicts with Scoop version tracking.",
+        "Dismiss the update prompt and use `scoop update gistmanager` instead.",
+        "Settings, account and layout data live in `%APPDATA%\\GistManager`, not in the install dir."
+    ],
+    "shortcuts": [
+        [
+            "GistManager.exe",
+            "GistManager"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Oranjekop/GistManager/releases/download/v$version/GistManager-$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Oranjekop/GistManager/releases/download/v$version/GistManager-$version-windows-arm64.zip"
+            }
+        }
+    }
+}
