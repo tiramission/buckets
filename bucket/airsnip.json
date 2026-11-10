@@ -1,10 +1,10 @@
 {
-    "version": "0.9.0",
+    "version": "0.10.0",
     "description": "Lightweight native Windows screenshot and annotation tool: tray-resident, ~1 MB single exe, built in Rust.",
     "homepage": "https://github.com/bd-dxg/airsnip",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/bd-dxg/airsnip/releases/download/v0.9.0/airsnip-v0.9.0-win-x64.zip",
-    "hash": "682235a53ee37d1485fec410f18d17cf4b4fbfcaf5926c0dc0f36cf051bd77b7",
+    "url": "https://github.com/bd-dxg/airsnip/releases/download/v0.10.0/airsnip-v0.10.0-win-x64.zip",
+    "hash": "eb1515b440ac2267f22688e57d958c85154a2effd685e145790801fac9dea152",
     "notes": [
         "AirSnip runs elevated (its exe manifest requires administrator), so a UAC prompt appears on every launch.",
         "Its built-in updater overwrites the exe in place, which conflicts with Scoop version tracking.",
