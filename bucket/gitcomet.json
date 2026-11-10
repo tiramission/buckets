@@ -1,10 +1,10 @@
 {
-    "version": "0.3.3",
+    "version": "0.3.4",
     "description": "GitComet is fastest open source user interface for GIT workflows",
     "homepage": "https://github.com/Auto-Explore/GitComet",
     "license": "AGPL-3.0-only",
-    "url": "https://github.com/Auto-Explore/GitComet/releases/download/v0.3.3/gitcomet-v0.3.3-windows-x86_64-portable.zip",
-    "hash": "30be36a3b82716d0cc4ea210d12e9a13d3decdac8d76e978a359bd6a57f65071",
+    "url": "https://github.com/Auto-Explore/GitComet/releases/download/v0.3.4/gitcomet-v0.3.4-windows-x86_64-portable.zip",
+    "hash": "936f45bbda1bc96300c30b1a8e397bd0cc21bcec6edad7fc6c22e70d3d59fe1e",
     "shortcuts": [
         [
             "gitcomet.exe",
