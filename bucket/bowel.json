@@ -1,0 +1,42 @@
+{
+    "version": "0.3.0",
+    "description": "A mihomo proxy client with routes, providers and system proxy takeover.",
+    "homepage": "https://bowel.dev",
+    "license": "PolyForm-Noncommercial-1.0.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/21stware/bowel/releases/download/v0.3.0/bowel-0.3.0-windows-amd64.tar.gz",
+            "hash": "4b202b623cf00903f01c701475cb4db2eec656cf5c9baee673a68cc487a75e36"
+        },
+        "arm64": {
+            "url": "https://github.com/21stware/bowel/releases/download/v0.3.0/bowel-0.3.0-windows-arm64.tar.gz",
+            "hash": "4603a958008fa337ac3881c490b0c26495205557b97984ff1490a4a255f7c105"
+        }
+    },
+    "notes": [
+        "bowel checks for updates itself and replaces its own exe in place, which conflicts with Scoop version tracking.",
+        "Dismiss the update prompt and use `scoop update bowel` instead.",
+        "Settings, providers and the mihomo core config live in `%APPDATA%\\bowel`, not in the install dir.",
+        "`bowel status` and `bowel tui` talk to a running instance; start one with `bowel daemon` or the shortcut."
+    ],
+    "bin": "bowel.exe",
+    "shortcuts": [
+        [
+            "bowel.exe",
+            "bowel"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/21stware/bowel"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/21stware/bowel/releases/download/v$version/bowel-$version-windows-amd64.tar.gz"
+            },
+            "arm64": {
+                "url": "https://github.com/21stware/bowel/releases/download/v$version/bowel-$version-windows-arm64.tar.gz"
+            }
+        }
+    }
+}
