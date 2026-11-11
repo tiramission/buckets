@@ -1,16 +1,16 @@
 {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "description": "A mihomo proxy client with routes, providers and system proxy takeover.",
     "homepage": "https://bowel.dev",
     "license": "PolyForm-Noncommercial-1.0.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/21stware/bowel/releases/download/v0.3.0/bowel-0.3.0-windows-amd64.tar.gz",
-            "hash": "4b202b623cf00903f01c701475cb4db2eec656cf5c9baee673a68cc487a75e36"
+            "url": "https://github.com/21stware/bowel/releases/download/v0.4.0/bowel-0.4.0-windows-amd64.tar.gz",
+            "hash": "669ab9189af02cf2af419ce6a672d8f494b906c9f6f48b48ef5c98cefcbca88a"
         },
         "arm64": {
-            "url": "https://github.com/21stware/bowel/releases/download/v0.3.0/bowel-0.3.0-windows-arm64.tar.gz",
-            "hash": "4603a958008fa337ac3881c490b0c26495205557b97984ff1490a4a255f7c105"
+            "url": "https://github.com/21stware/bowel/releases/download/v0.4.0/bowel-0.4.0-windows-arm64.tar.gz",
+            "hash": "cc37815ebdb2077ef3f35adc450863bd080c36833b21258ef4c6f0140b3208a1"
         }
     },
     "notes": [
