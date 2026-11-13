@@ -1,0 +1,26 @@
+{
+    "version": "0.16.6",
+    "description": "Open-source download manager for courses, YouTube, music and 1,800+ sites, built with Tauri, Rust and Svelte.",
+    "homepage": "https://github.com/OpenSelena/omniget",
+    "license": "GPL-3.0",
+    "url": "https://github.com/OpenSelena/omniget/releases/download/v0.16.6/omniget_0.16.6_x64-portable.exe",
+    "hash": "5db562c2532a19161424444fdc2e2822eff4fe8f9f9f087135cf08dd00fd2241",
+    "shortcuts": [
+        [
+            "omniget_0.16.6_x64-portable.exe",
+            "OmniGet"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/OpenSelena/omniget"
+    },
+    "autoupdate": {
+        "url": "https://github.com/OpenSelena/omniget/releases/download/v$version/omniget_$version_x64-portable.exe",
+        "shortcuts": [
+            [
+                "omniget_$version_x64-portable.exe",
+                "OmniGet"
+            ]
+        ]
+    }
+}
