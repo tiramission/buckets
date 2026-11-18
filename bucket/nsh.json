@@ -1,10 +1,10 @@
 {
-    "version": "0.5.1",
+    "version": "0.6.0",
     "description": "NSH runs modules written in TSX — natively on iOS, Android, macOS, Windows, Linux, GPUI and the web",
     "homepage": "https://github.com/longbridge/nsh",
     "license": "Apache-2.0",
-    "url": "https://github.com/longbridge/nsh/releases/download/v0.5.1/nsh-windows-x86_64.zip",
-    "hash": "9dc4b74037033c8ff50b1047b4702b36e6fd66beb9f5d61411d3497f4751df90",
+    "url": "https://github.com/longbridge/nsh/releases/download/v0.6.0/nsh-windows-x86_64.zip",
+    "hash": "6ae2e430d84cfe5fcb1d2ab25e56c2685eaaa4abc963c93b52263f435791ebb1",
     "extract_dir": "nsh",
     "bin": "bin/nsh.exe",
     "checkver": "github",
