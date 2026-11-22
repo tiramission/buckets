@@ -1,10 +1,10 @@
 {
-    "version": "0.1.13",
+    "version": "0.1.14",
     "description": "Easily create full virtual machines that are sandboxed for development or computer use models.",
     "homepage": "https://github.com/jamesstringer90/appsandbox",
     "license": "MIT",
-    "url": "https://github.com/jamesstringer90/appsandbox/releases/download/v0.1.13/AppSandbox-0.1.13-win-x64.zip",
-    "hash": "b53bc26872af31a8b53b1c74606657ec3f0557588acf4425e1f29bb581737606",
+    "url": "https://github.com/jamesstringer90/appsandbox/releases/download/v0.1.14/AppSandbox-0.1.14-win-x64.zip",
+    "hash": "82f90fc561c154aa705ddd196baa022f51b1d7bbbf4f6564ebda9fc60af9e2b9",
     "bin": "iso-patch.exe",
     "shortcuts": [
         [
